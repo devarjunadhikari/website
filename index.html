@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="arjunadhikari">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="web/favicon.ico"/>
-
-  <title>arjunadhikari</title>
-  <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Adhikari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .contact-info, .about-me {
+            margin: 2em;
+            padding: 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            margin: 0;
+            padding-bottom: 0.5em;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+    <header>
+        <h1>Arjun Adhikari</h1>
+        <p>Software Engineer</p>
+    </header>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Address:</strong> Parbat 10, Kushma</p>
+        <p><strong>Phone Number:</strong> 9825184662</p>
+    </section>
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>Hello! I am Arjun Adhikari, a passionate Software Engineer. Welcome to my personal website where you can learn more about me and my work.</p>
+    </section>
 </body>
 </html>
